@@ -1,0 +1,17 @@
+digraph G {
+"map" -> "track_point"[label="Broadcaster: /pathFollower\nAverage rate: 100.200 Hz\nMost recent transform: 1711247496.728 ( 0.006 sec old)\nBuffer length: 4.990 sec\n"];
+"world_enu" -> "map"[label="Broadcaster: /world_enu_to_map_pub\nAverage rate: 1.250 Hz\nMost recent transform: 1711247496.777 ( -0.043 sec old)\nBuffer length: 4.000 sec\n"];
+"drone0" -> "drone0/odom_local_ned"[label="Broadcaster: /airsim_node\nAverage rate: 100.339 Hz\nMost recent transform: 1711247494.948 ( 1.786 sec old)\nBuffer length: 4.983 sec\n"];
+"world_ned" -> "drone0"[label="Broadcaster: /airsim_node\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1711247496.734 sec old)\nBuffer length: 0.000 sec\n"];
+"drone0/odom_local_ned" -> "cam_body/static"[label="Broadcaster: /airsim_node\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1711247496.734 sec old)\nBuffer length: 0.000 sec\n"];
+"drone0/odom_local_ned" -> "cam_optical/static"[label="Broadcaster: /airsim_node\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1711247496.734 sec old)\nBuffer length: 0.000 sec\n"];
+"map" -> "vehicle"[label="Broadcaster: /vehicleSimulator\nAverage rate: 200.200 Hz\nMost recent transform: 1711247496.733 ( 0.001 sec old)\nBuffer length: 4.990 sec\n"];
+"world_ned" -> "world_enu"[label="Broadcaster: /ned_to_enu_pub\nAverage rate: 10.193 Hz\nMost recent transform: 1711247496.761 ( -0.027 sec old)\nBuffer length: 4.905 sec\n"];
+"drone0" -> "cam_body"[label="Broadcaster: /airsim_node\nAverage rate: 11.392 Hz\nMost recent transform: 1711247494.738 ( 1.996 sec old)\nBuffer length: 4.740 sec\n"];
+"drone0" -> "cam_optical"[label="Broadcaster: /airsim_node\nAverage rate: 11.392 Hz\nMost recent transform: 1711247494.738 ( 1.996 sec old)\nBuffer length: 4.740 sec\n"];
+"vehicle" -> "rgbd_camera"[label="Broadcaster: /vehicleTransPublisher\nAverage rate: 1.250 Hz\nMost recent transform: 1711247496.864 ( -0.130 sec old)\nBuffer length: 4.000 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1711247496.734"[ shape=plaintext ] ;
+ }->"world_ned";
+}
