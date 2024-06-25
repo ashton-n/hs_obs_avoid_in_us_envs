@@ -1,5 +1,4 @@
 aerial_navigation_development_environment/src/local_planner/paths/correspondences.txt filter=lfs diff=lfs merge=lfs -text
-.git/lfs/objects/82/6a/826adeede7fd8e7b40f456cd1300ce564e25d922e1812ae71bf9932cac2d958c filter=lfs diff=lfs merge=lfs -text
 sim_env/.vs/AnotherProject/v17/Browse.VC.db filter=lfs diff=lfs merge=lfs -text
 sim_env/.vs/AnotherProject/v17/ipch/20d8cd7d884fdda3.ipch filter=lfs diff=lfs merge=lfs -text
 sim_env/.vs/AnotherProject/v17/ipch/c5daa06aa99fa30b.ipch filter=lfs diff=lfs merge=lfs -text
@@ -52,7 +51,3 @@ sim_env/Intermediate/Build/Linux/x64/AnotherProject/DebugGame/Engine/SharedPCH.E
 sim_env/Intermediate/Build/Linux/x64/AnotherProject/Development/Engine/SharedPCH.Engine.Exceptions.ShadowErrors.InclOrderUnreal5_0.h.gch filter=lfs diff=lfs merge=lfs -text
 sim_env/Intermediate/Build/Linux/x64/AnotherProject/Development/Engine/SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.gch filter=lfs diff=lfs merge=lfs -text
 sim_env/Intermediate/Build/Linux/x64/AnotherProjectEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.gch filter=lfs diff=lfs merge=lfs -text
-Colosseum/.git/objects/pack/pack-63e172970ec5fb1a4464f61a26a23838d747fc13.pack filter=lfs diff=lfs merge=lfs -text
-Colosseum/Unreal/Environments/AirSimNH/LinuxNoEditor/AirSimNH/Binaries/Linux/AirSimNH.sym filter=lfs diff=lfs merge=lfs -text
-Colosseum/Unreal/Environments/AirSimNH/LinuxNoEditor/AirSimNH/Binaries/Linux/AirSimNH.debug filter=lfs diff=lfs merge=lfs -text
-Colosseum/Unreal/Environments/AirSimNH/LinuxNoEditor/AirSimNH/Binaries/Linux/AirSimNH filter=lfs diff=lfs merge=lfs -text
