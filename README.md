@@ -70,11 +70,9 @@ cp path/to/hs_obs_avoid_in_us_envs/settings.json ~/Documents/AirSim/
 #### <u>Install FALCO</u>
 FALCO is a collision avoidance algorithm which you can read more about [here](https://www.ri.cmu.edu/publications/falco-fast-likelihood%E2%80%90based-collision-avoidance-with-extension-to-human%E2%80%90guided-navigation/).
 
-Installation instructions for FLACO can be found [here](https://github.com/caochao39/aerial_navigation_development_environment/tree/melodic-noetic).
+Installation instructions for FALCO can be found [here](https://github.com/caochao39/aerial_navigation_development_environment/tree/melodic-noetic).
 
-A lot of fine-tuning has been done on the existing default parameters. While the original repo is referenced in the link above the "aerial_navigation_development_environment" folder in this repo contains the parameters used for experimentation. Aside from the updated parameters, the logging node written for the simulation environment can be found in "aerial_navigation_development_environment/src/airsim_utils/scripts/log_metrics.py"  
-
-The logging node captures all the positional and timing information as the MAV moves through the simulation environment.
+A lot of fine-tuning has been done on the existing default parameters. While the original repo is referenced in the link above the "aerial_navigation_development_environment" folder in this repo contains the parameters used for experimentation. Aside from the updated parameters, the logging node written for the simulation environment can be found in "aerial_navigation_development_environment/src/airsim_utils/scripts/log_metrics.py".  The logging node captures all the positional and timing information as the MAV moves through the simulation environment.
 
 To build the tuned FALCO repo contained in this repo:
 ```bash
