@@ -83,6 +83,17 @@ cd path/to/aerial_navigation_development_environment/
 catkin_make
 ```
 
+#### <u>Download Simulation Environment</u>
+The simulation environment can be found [here](https://drive.google.com/drive/folders/1Mc4ExDlhbInf63pH7voFm6nMLcstyY6h?usp=drive_link).
+
+Note that this is the Unreal Engine project which contains the simulation environment. 
+
+The file is a tar.bz2 file and can be unzipped as follows: 
+
+```bash
+tar -xjvf sim_env.tar.bz2
+```
+
 ## Running the Simulation in UE using FALCO
 
 Open the simulation environment in Unreal Engine Editor.
@@ -119,7 +130,7 @@ Run the logging node to begin recording MAV data.
 Start a new terminal.
 ```bash
 # run the logging node
-cd ~/MAV_SIM/aerial_navigation_development_environment/src/airsim_utils/scripts/ && python ./log_metrics.py
+cd ~/your_path/aerial_navigation_development_environment/src/airsim_utils/scripts/ && python ./log_metrics.py
 ```
 
 The simulation should now be running and in the Pillars Course. To run the simulation in the Trees course, move the PlayerStart position in the Unreal Engine Outliner to the center of the start position in the Trees course.
